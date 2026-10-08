@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Peilin Photography</title>
+<meta name="description" content="Photographs by Peilin: landscape, street and portrait work, available for commissions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=Work+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#">Peilin</a>
+    <nav aria-label="Sections">
+      <a href="#photos">Photos</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="wrap intro">
+    <h1>Light, places<br>&amp; people<span>.</span></h1>
+    <p>Landscape, street and portrait photographs. Placeholder intro: replace this line with one sentence about what you shoot and what you're available for.</p>
+  </section>
+
+  <section class="wrap" id="photos">
+    <h2 class="label">Contact sheet</h2>
+    <div class="filters" id="filters" role="group" aria-label="Filter photos"></div>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <section class="wrap work" id="work">
+    <h2 class="label">Work</h2>
+    <div class="work-grid">
+      <article>
+        <h3>Portrait sessions</h3>
+        <p>Placeholder: headshots and personal portraits in natural light, on location or at home.</p>
+        <p class="meta">From $— · 1 hour · 15 edited images</p>
+      </article>
+      <article>
+        <h3>Events</h3>
+        <p>Placeholder: small events, launches and gatherings, delivered within a week.</p>
+        <p class="meta">From $— · half or full day</p>
+      </article>
+      <article>
+        <h3>Prints &amp; licensing</h3>
+        <p>Placeholder: archival prints of anything in the gallery, and licensing for editorial or commercial use.</p>
+        <p class="meta">Ask for sizes and rates</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="wrap about" id="about">
+    <div>
+      <h2 class="label">About</h2>
+      <p>Placeholder bio. Two or three sentences about you: where you're based, how you got into photography, and what you like to shoot.</p>
+      <p>If you also do other work, such as software, this is a good place to link to it or to your résumé.</p>
+    </div>
+    <aside class="contact">
+      <h3>Get in touch</h3>
+      <dl>
+        <dt>Email</dt><dd>you@example.com</dd>
+        <dt>Instagram</dt><dd>@yourhandle</dd>
+        <dt>Based in</dt><dd>Your city</dd>
+      </dl>
+    </aside>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Peilin. All photographs are mine; please ask before reusing.</span>
+    <a href="#">Back to top</a>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <img alt="">
+  <div class="bar">
+    <div><div data-title></div><span data-meta></span></div>
+    <div class="ctrl">
+      <button type="button" data-prev>Prev</button>
+      <button type="button" data-next>Next</button>
+      <button type="button" data-close>Close</button>
+    </div>
+  </div>
+</div>
+
+<script src="photos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
